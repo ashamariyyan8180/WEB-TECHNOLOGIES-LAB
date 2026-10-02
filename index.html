@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Layyah | Web Technologies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { font-family: Arial, sans-serif; background: #f8f9fa; }
+        .hero { background: linear-gradient(135deg, #0d6efd, #084298); color: white; padding: 90px 0; }
+        .section-title { color: #084298; font-weight: 700; }
+        .card { border: none; box-shadow: 0 4px 15px rgba(0,0,0,.08); }
+        footer { background: #212529; color: white; }
+        .gallery img { width: 100%; height: 220px; object-fit: cover; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">University of Layyah</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="home" class="hero text-center">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Welcome to University of Layyah</h1>
+    <p class="lead mt-3">A simple Bootstrap website for Web Technologies Lab</p>
+    <a href="#about" class="btn btn-light btn-lg mt-3">Explore Website</a>
+  </div>
+</section>
+
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="text-center section-title mb-4">About University</h2>
+    <div class="row align-items-center g-4">
+      <div class="col-md-6">
+        <img src="https://ul.edu.pk/storage/career/files/Faculty-bdf81.jpg" class="img-fluid rounded shadow" alt="University illustration">
+      </div>
+      <div class="col-md-6">
+        <h3>University of Layyah</h3>
+        <p>
+          University of Layyah is an educational institution located in Layyah,
+          Punjab, Pakistan. It provides students with opportunities to learn,
+          develop skills and take part in academic activities.
+        </p>
+        <p>
+          This website is created as a basic Web Technologies lab task using
+          HTML, CSS and Bootstrap.
+        </p>
+        <div class="alert alert-primary">
+          <strong>Student:</strong> Ashama Riyyan<br>
+          <strong>Subject:</strong> Web Technologies
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center section-title mb-4">Why Learn Web Technologies?</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 p-4 text-center">
+          <h4>HTML</h4>
+          <p>HTML is used to create the structure and content of a web page.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 p-4 text-center">
+          <h4>CSS</h4>
+          <p>CSS is used to style web pages and make them attractive and readable.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 p-4 text-center">
+          <h4>Bootstrap</h4>
+          <p>Bootstrap helps create responsive websites using ready-made components.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="py-5">
+  <div class="container">
+    <h2 class="text-center section-title mb-4">Gallery</h2>
+    <div class="row g-4 gallery">
+      <div class="col-md-4">
+        <div class="card overflow-hidden">
+          <img src="https://ul.edu.pk/storage/career/files/Faculty-bdf81.jpg" alt="University">
+          <div class="card-body"><h5>University of Layyah</h5><p class="mb-0">University campus, Layyah.</p></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card overflow-hidden">
+          <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Old_layyah_city_site.jpg" alt="Layyah">
+          <div class="card-body"><h5>Layyah City</h5><p class="mb-0">Layyah, Punjab, Pakistan.</p></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card overflow-hidden">
+          <img src="images/computer.svg" alt="Web Technologies">
+          <div class="card-body"><h5>Web Technologies</h5><p class="mb-0">Learning modern web development.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center section-title mb-4">Student Information</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-7">
+        <div class="card p-4">
+          <p><strong>Name:</strong> Ashama Riyyan</p>
+          <p><strong>University:</strong> University of Layyah</p>
+          <p><strong>City:</strong> Layyah, Punjab, Pakistan</p>
+          <p><strong>Course:</strong> Web Technologies</p>
+          <p class="mb-0"><strong>Assignment:</strong> Basic Bootstrap Website</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="text-center py-4">
+  <div class="container">
+    <p class="mb-1">Web Technologies Lab Task</p>
+    <p class="mb-0">Created by Ashama Riyyan | University of Layyah</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

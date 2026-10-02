@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+<rect width="900" height="500" fill="#87ceeb"/>
+<circle cx="730" cy="90" r="55" fill="#ffd54f"/>
+<rect y="300" width="900" height="200" fill="#78a84b"/>
+<path d="M0 380 Q180 250 360 380 T720 380 T1080 380" fill="#d9c28f"/>
+<rect x="110" y="220" width="170" height="110" fill="#d88952"/>
+<polygon points="90,220 195,145 300,220" fill="#a44a3f"/>
+<rect x="165" y="270" width="55" height="60" fill="#5b3a29"/>
+<text x="450" y="455" text-anchor="middle" font-family="Arial" font-size="38" font-weight="bold" fill="#fff">LAYYAH • PUNJAB • PAKISTAN</text>
+</svg>

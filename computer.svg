@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+<rect width="900" height="500" fill="#212529"/>
+<rect x="180" y="90" width="540" height="300" rx="18" fill="#6c757d"/>
+<rect x="210" y="120" width="480" height="240" fill="#e9f7ff"/>
+<text x="450" y="220" text-anchor="middle" font-family="Arial" font-size="44" font-weight="bold" fill="#0d6efd">&lt;/&gt;</text>
+<text x="450" y="275" text-anchor="middle" font-family="Arial" font-size="28" fill="#212529">WEB TECHNOLOGIES</text>
+<rect x="340" y="405" width="220" height="25" rx="12" fill="#adb5bd"/>
+</svg>

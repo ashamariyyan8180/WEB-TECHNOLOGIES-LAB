@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+<rect width="900" height="500" fill="#0d6efd"/>
+<rect x="120" y="120" width="660" height="270" rx="12" fill="#fff"/>
+<path d="M170 170 L450 70 L730 170 Z" fill="#ffc107"/>
+<rect x="210" y="180" width="480" height="30" fill="#0d6efd"/>
+<rect x="235" y="225" width="55" height="120" fill="#0d6efd"/>
+<rect x="335" y="225" width="55" height="120" fill="#0d6efd"/>
+<rect x="435" y="225" width="55" height="120" fill="#0d6efd"/>
+<rect x="535" y="225" width="55" height="120" fill="#0d6efd"/>
+<rect x="635" y="225" width="55" height="120" fill="#0d6efd"/>
+<text x="450" y="430" text-anchor="middle" font-family="Arial" font-size="34" fill="#fff">UNIVERSITY OF LAYYAH</text>
+</svg>
